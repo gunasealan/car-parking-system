@@ -1,5 +1,5 @@
 # car-parking-system
-code.ino — Arduino source code. * circuit_diagram.png — circuit connections. * project_photos/ — photos of your completed project. * components.md — components and their purposes.
+code.ino — Arduino source code. * circuit_diagram.png — circuit connections. * project_photos/ — <img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/e8564354-6ea6-4ad4-bd5a-2def1773eb4a" />. * components.md — components and their purposes.
 https://wokwi.com/projects/478059040424627201
 
 Note: This is a basic demonstration program. It assumes active-LOW IR sensor modules and uses a single ultrasonic measurement to confirm entry. For a reliable working model, sensor placement and gate timing must be tested. The slot count is stored only in memory, so it resets when the Arduino restarts. This version also does not verify that every entry corresponds to a completed exit.
