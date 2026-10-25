@@ -1,9 +1,10 @@
 # car-parking-system
 code.ino — Arduino source code. * circuit_diagram.png — circuit connections. * project_photos/ — photos of your completed project. * components.md — components and their purposes.
 https://wokwi.com/projects/478059040424627201
+
 Note: This is a basic demonstration program. It assumes active-LOW IR sensor modules and uses a single ultrasonic measurement to confirm entry. For a reliable working model, sensor placement and gate timing must be tested. The slot count is stored only in memory, so it resets when the Arduino restarts. This version also does not verify that every entry corresponds to a completed exit.
 
-5. Working Principle
+ Working Principle
 
 1. The ultrasonic sensor measures the distance to a vehicle near the entrance.
 2. The entry IR sensor detects the vehicle.
